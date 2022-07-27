@@ -1,6 +1,6 @@
-require "calculate_pv2"
-require "calculate_ev2"
-require "calculate_ac2"
+require_relative "calculate_pv2"
+require_relative "calculate_ev2"
+require_relative "calculate_ac2"
 
 # Calculation EVM module
 module CalculateEvmLogic2
